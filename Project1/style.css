@@ -4,10 +4,19 @@
   box-sizing: border-box;
 }
 
+:root {
+  --clr-primary-900: #3d195b;
+  --clr-primary-800: #ffa000;
+  --clr-accent-200: #f5f0e7;
+
+  --ff-primary: 'roboto', sans-serif;
+}
+
 .navbar {
   display: flex;
   align-items: center;
   background-color: #3d195b;
+  font-family: var(--ff-primary);
 }
 
 nav {
@@ -30,40 +39,65 @@ li {
 
 a {
   text-decoration: none;
-  color: white;
+  color: aliceblue;
+}
+
+.banner {
+  background: var(--clr-primary-800);
+}
+
+.split {
+  background: #f5f0e7;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 40em) {
+  .split {
+    flex-direction: row;
+  }
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .container {
-  margin: auto;
+  margin-inline: auto;
+  width: min(90%, 95.5rem);
 }
 
-.col-2 img {
+h1,
+h2,
+h3 {
+  margin-bottom: 20px;
+}
+
+img {
   display: block;
-  width: 50%;
-  padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.col-2 {
-  background-color: #ffa000;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .sponsors {
-  padding: 5px;
-  align-items: center;
-  justify-content: center;
   display: flex;
 }
 
-sponsor,
-img {
-  width: 150px;
+.sponsors img {
+  margin-right: 30px;
+  align-items: center;
 }
 
-.stadium,
-.row,
-.col-2,
-img {
-  max-width: 100%;
+.club {
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
 }
