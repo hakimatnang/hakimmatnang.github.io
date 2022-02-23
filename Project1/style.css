@@ -56,6 +56,10 @@ a {
   .split {
     flex-direction: row;
   }
+
+  .split > * {
+    flex-basis: 100%;
+  }
 }
 
 .responsive {
@@ -87,6 +91,8 @@ img {
 
 .sponsors {
   display: flex;
+  max-width: 500px;
+  margin: auto;
 }
 
 .sponsors img {
@@ -96,8 +102,26 @@ img {
 
 .club {
   display: flex;
+  max-width: 500px;
+  margin: auto;
 }
 
 .text-center {
   text-align: center;
+}
+
+.stadium {
+  margin-top: 10%;
+  padding-left: 10%;
+  font-family: var(--ff-primary);
+}
+
+.scorrer {
+  margin-top: 10%;
+  padding-right: 20%;
+  font-family: var(--ff-primary);
+}
+
+.alan {
+  margin-left: 10%;
 }
