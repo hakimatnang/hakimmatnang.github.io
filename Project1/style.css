@@ -157,3 +157,46 @@ img {
   background-color: var(--clr-primary-900);
   height: 100px;
 }
+
+#center-image {
+  display: flex;
+  place-content: center;
+}
+
+.header {
+  background-color: #3d195b;
+}
+
+.header-sign {
+  background-color: #3d195b;
+  height: 140px;
+}
+
+table {
+  background-color: #ff523bS;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#table-score {
+  border-collapse: collapse;
+  border: 1px;
+}
+
+#table-score th {
+  background-color: #e3d000;
+}
+
+#table-score td,
+#table-score th {
+  border: 1px solid #ddd;
+  padding: 15px 50px;
+}
+
+#table-score tr:nth-child(even) {
+  background-color: #d7dfe7;
+}
+
+#table-score tr {
+  background-color: #fdfadf;
+}
