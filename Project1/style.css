@@ -170,6 +170,9 @@ img {
 .header-sign {
   background-color: #3d195b;
   height: 140px;
+  padding-top: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
 }
 
 table {

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book your dream vacation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&family=Work+Sans:ital,wght@0,400;0,500;1,400&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="book.html">Booking</a></li>
+                <li><a href="">Experience</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Promotion header-->
+    <section>
+        <div class="promotion">
+            <div class="promotion-booknow">
+                <h1 id="plan-title">Plan your vacation now !</h1>
+                <a href="book.html" class="btn-booknow">BOOK NOW &#8594;</a>
+                <p id="promotion-covid">Check your destination’s COVID-19 situation before traveling. State, tribal, local, and territorial governments may have travel restrictions in place.</p>
+            </div>
+            <div class="promotion-image">
+                <img src="image/plane.png" alt="Moving forward plane">
+            </div>
+        </div>
+    </section>
+    
+    <!--Destination promo-->
+    <div class="destination-promo">
+        <div class="destination-promo-price">
+            <h2>TOKYO</h2>
+            <h5>Starts from</h5>
+            <h2>RM 299</h2>
+        </div>
+        <div class="destination-promo-price">
+            <h2>LONDON</h2>
+            <h5>Starts from</h5>
+            <h2>RM 599</h2>
+        </div>
+        <div class="destination-promo-price">
+            <h2>PARIS</h2>
+            <h5>Starts from</h5>
+            <h2>RM 499</h2>
+        </div>
+    </div>
+
+    <!--COVID-19 restrictions-->
+    <div class="restrictions">
+        <div class="restrictions-left">
+            <p id="cov-title">COVID-19 Restrictions :</p>
+            <p id="cov-left">Wearing a mask over your nose and mouth is required in indoor areas of public transportation (including airplanes) and indoors in U.S. transportation hubs (including airports).
+            </p>
+        </div>
+        <div class="restrictions-right">
+            <p id="cov-right">Do not travel if you are sick, tested positive for COVID-19 and haven’t ended isolation, had close contact with a person with COVID-19 and haven’t ended quarantine, or are waiting for results of a COVID-19 test</p>
+        </div>
+    </div>
+
+    <!--Destination-highlights-->
+    <div class="destination-highlights">
+        <div class="destination-highlights-img">
+            <img src="image/kualalumpur.png" alt="Kuala lumpur">
+            <h2 id="destination-name" onmouseover="changeText(this,'MALAYSIA')" onmouseout="changeText(this,'KUALA LUMPUR')">KUALA LUMPUR</h2>
+        </div>
+        <div class="destination-highlights-img">
+            <img src="image/bali.png" alt="Bali">
+            <h2 id="destination-name" onmouseover="changeText(this,'INDONESIA')" onmouseout="changeText(this,'BALI')">BALI</h2>
+        </div>
+        <div class="destination-highlights-img">
+            <img src="image/newyork.png" alt="New York">
+            <h2 id="destination-name" onmouseover="changeText(this,'UNITED STATES')" onmouseout="changeText(this,'NEW YORK')">NEW YORK</h2>
+        </div>
+        <div class="destination-highlights-img">
+            <img src="image/newdelhi.png" alt="New delhi">
+            <h2 id="destination-name" onmouseover="changeText(this,'INDIA')" onmouseout="changeText(this,'NEW DELHI')">NEW DELHI</h2>
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+
+    </div>
+
+</body>
+</html>

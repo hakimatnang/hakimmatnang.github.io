@@ -1,0 +1,174 @@
+:root {
+  clr-primary: #03005e;
+  clr-secondary: #707070;
+  clr-tertiary: #ff0000;
+
+  ff-primary: 'poppins', serif;
+}
+
+body {
+  margin: 0%;
+  font-family: 'Poppins', sans-serif;
+}
+/*navigation*/
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: var(clr-secondary);
+  font-family: 'Poppins', sans-serif;
+}
+
+nav a:hover {
+  color: #03005e;
+}
+
+header {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+a .btn-booknow {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 5px;
+}
+
+.btn-booknow {
+  background-color: #03005e;
+  padding: 5px 15px;
+  border-radius: 25px;
+}
+
+/*promotion*/
+
+.promotion {
+  padding: 20px;
+  display: flex;
+  margin: 0% 10%;
+  font-family: 'Poppins', sans-serif;
+}
+
+#promotion-covid {
+  color: #ff0000;
+}
+
+.promotion-booknow {
+  padding-top: 10%;
+  margin: 5%;
+}
+
+/*destination*/
+
+.destination-promo {
+  display: flex;
+  justify-content: center;
+  margin: 0% 8%;
+}
+
+.destination-promo-price {
+  background-color: #03005e;
+  color: white;
+  width: 448px;
+  height: 227px;
+  text-align: center;
+  padding: 0%;
+  padding-top: 2%;
+  border-radius: 25px;
+  margin: 5% 2%;
+  box-shadow: 9px 9px 6px #4b28c2;
+}
+
+.destination-promo-price:hover {
+  background-color: #040331;
+  color: rgb(187, 255, 0);
+  box-shadow: 9px 9px 6px #e5ff00;
+}
+
+/*COVID-19 restrictions*/
+
+.restrictions {
+  background-color: #ff0000;
+  color: white;
+  height: 314px;
+  display: flex;
+}
+
+.restrictions-left {
+  margin-left: 10%;
+  padding-top: 4%;
+  padding-left: 10%;
+  padding-right: 3%;
+}
+
+.restrictions-right {
+  margin-right: 10%;
+  padding-top: 6%;
+  padding-left: 3%;
+  padding-right: 10%;
+}
+/*Destination-highlights*/
+
+.destination-highlights {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10% 0%;
+}
+
+.destination-highlights-img {
+  margin: 0% 0.5%;
+}
+
+.destination-highlights-img img {
+  border-radius: 35px;
+}
+
+/*footer*/
+.footer {
+  height: 190px;
+  background-color: #03005e;
+}
+
+/*book.html*/
+
+/*banner*/
+.banner {
+  background-color: #03005e;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  margin: 10%;
+}
+
+.info img {
+  border-radius: 30px;
+}
+
+/*Experience.html*/
+
+.experience {
+  display: flex;
+  margin: 10%;
+}
+
+.experience img {
+  border-radius: 30px;
+}
+
+.experience-country {
+  margin: 30px;
+}
