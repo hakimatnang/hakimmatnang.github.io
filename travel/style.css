@@ -37,16 +37,18 @@ header {
   padding-bottom: 20px;
 }
 
-a .btn-booknow {
-  text-decoration: none;
-  color: aliceblue;
-  padding: 5px;
-}
-
 .btn-booknow {
   background-color: #03005e;
   padding: 5px 15px;
   border-radius: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-booknow:hover {
+  background-color: aliceblue;
+  color: #03005e;
+  transition: 0.6s;
 }
 
 /*promotion*/
@@ -86,6 +88,7 @@ a .btn-booknow {
   border-radius: 25px;
   margin: 5% 2%;
   box-shadow: 9px 9px 6px #4b28c2;
+  transition: 0.6s;
 }
 
 .destination-promo-price:hover {
@@ -134,9 +137,28 @@ a .btn-booknow {
 }
 
 /*footer*/
-.footer {
-  height: 190px;
+.footer-container {
   background-color: #03005e;
+  color: white;
+  padding-bottom: 4em;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  margin-right: 55px;
+}
+
+.footer-heading a {
+  color: white;
+  text-decoration: none;
 }
 
 /*book.html*/
@@ -158,6 +180,28 @@ a .btn-booknow {
   border-radius: 30px;
 }
 
+.form-book {
+  display: flex;
+  margin: 5%;
+  box-shadow: 9px 9px 6px #0b6c84;
+  box-shadow: 0px 3px 6px #000000;
+  border-radius: 25px;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+input[id='destination'] {
+  width: 230%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
 /*Experience.html*/
 
 .experience {
@@ -171,4 +215,58 @@ a .btn-booknow {
 
 .experience-country {
   margin: 30px;
+}
+
+/*Experience.html*/
+
+.banner-contact {
+  color: #03005e;
+  padding: 30px;
+  text-align: center;
+}
+
+.form-contact {
+  display: flex;
+  place-content: center;
+}
+
+.form-email {
+  padding: 8%;
+}
+
+input[type='email'],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[id='remarks'],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type='submit']:hover {
+  background-color: #03005e;
+}
+
+input[type='submit'] {
+  width: 100%;
+  background-color: gray;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }

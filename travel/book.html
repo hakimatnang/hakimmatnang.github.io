@@ -20,8 +20,8 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="book.html">Booking</a></li>
-                <li><a href="">Experience</a></li>
-                <li><a href="">Contact us</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="contact.html">Contact us</a></li>
             </ul>
         </nav>
     </header>
@@ -36,21 +36,22 @@
 
     <!--form-->
     <section>
-        <div class="form">
+        <div class="form-book">
             <form action="booking.php">
                 <label for="destination">Destination:</label><br>
-                <input type="text" id="destination" name="destination" value="Kuala Lumpur KUL"><br>
+                <input type="text" id="destination" name="destination" value="Kuala Lumpur KUL"><br><br>
                 <label for="depart">Depart:</label>
-                <input type="date" id="depart" name="depart"><br>
+                <input type="date" id="depart" name="depart">
                 <label for="return">Return:</label>
-                <input type="date" id="return" name="return"><br>
+                <input type="date" id="return" name="return"><br><br>
 
                 <input type="radio" id="first" name="class" value="First Class">
-                  <label for="rirst">First Class</label><br>
+                  <label for="rirst">First Class</label>
                 <input type="radio" id="business" name="class" value="Business Class">
-                  <label for="business">Business Class</label><br>
+                  <label for="business">Business Class</label>
                 <input type="radio" id="economy" name="class" value="Economy Class">
-                  <label for="economy">Economy Class</label><br>
+                  <label for="economy">Economy Class</label>
+                <input type="submit" value="Submit">
 
             </form>
         </div>
@@ -91,8 +92,38 @@
     </section>
 
     <!--footer-->
-    <div class="footer">
-
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-heading footer-1">
+                <h3>CONTACT US</h3>
+                <a href="#">+44 345 678 903</a>
+                <a href="#">adobexd@mail.com</a>
+                <a href="#">Find a Store</a>
+            </div>
+            <div class="footer-heading footer-2">
+                <h3>CUSTOMER REFERENCE</h3>
+                <a href="#">Contact Us</a>
+                <a href="#">Ordering & Payment</a>
+                <a href="#">Shipping</a>
+                <a href="#">Returns</a>
+                <a href="#">FAQ</a>
+            </div>
+            <div class="footer-heading footer-3">
+                <h3>INFORMATION</h3>
+                <a href="#">About Adobe XD Kit</a>
+                <a href="#">Work With US</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms and Conditions</a>
+                <a href="#">
+                    Press Enquiries</a>
+            </div>
+            <div class="footer-heading footer-3">
+                <h3>Join our newsletter</h3>
+                <a href="#">About Adobe XD Kit</a>
+                <a href="#">Work With US</a>
+                <input type="email"><br><br>
+            </div>
+        </div>
     </div>
 
 </body>
